@@ -6,11 +6,46 @@
     box-sizing: border-box;
 }
 /* Common */
+body{
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
 
+button{
+    color: white;
+}
 /* Typo */
 
 /* Header */
+header{
+    height: 8vh;
+}
+
+header .header-btm{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+header .header-btm button{
+    background-color: #4a4a4a;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+}
 
 /* Main */
-
+main{
+    height: calc(84vh);
+    background-color: red;
+    /* Debug */
+}
 /* Footer */
+
+footer{
+    height: 8vh;
+    background-color: blueviolet;
+    /* Debug */
+}
