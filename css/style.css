@@ -16,7 +16,9 @@ button{
     color: white;
 }
 /* Typo */
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
 /* Header */
 header{
     height: 8vh;
@@ -37,15 +39,36 @@ header .header-btm button{
 }
 
 /* Main */
-main{
-    height: calc(84vh);
-    background-color: red;
-    /* Debug */
+
+
+
+main .container{
+    padding: 0 0 30px 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    background-color: black;
+    overflow: auto;
+    height: 84vh;
+}
+
+main .container .box img{
+    width: 100%;
+}
+
+main .container .box{
+    padding: 2px 0;
+    position: relative;
+}
+
+main .container .users{
+    position: absolute;
+    font-size: 13px;
+    bottom: 5px;
+    padding: 10px;
+    left: 0;
+    background-color: rgba(85, 85, 85, 0.5);
 }
 /* Footer */
 
-footer{
-    height: 8vh;
-    background-color: blueviolet;
-    /* Debug */
-}
