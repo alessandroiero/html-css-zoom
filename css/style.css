@@ -43,7 +43,7 @@ header .header-btm button{
 
 
 main .container{
-    padding: 0 0 30px 40px;
+    padding: 0 30px 30px 30px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -72,3 +72,75 @@ main .container .users{
 }
 /* Footer */
 
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: #222222;
+    position: fixed;
+    z-index: 20;
+}
+
+.footer .left-footer, .footer .right-footer{
+    width: 30%;
+}
+.footer .center-footer{
+    width: 80%;
+}
+/* left footer */
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+footer .left-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    gap:20px;
+}
+
+footer .left-footer, footer .center-footer, footer .right-footer{
+    display: flex;
+}
+footer .action{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.icon>i {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.up-arrow{
+    font-size: 9px;
+    align-items: center;
+}
+/* center footer */
+.center-footer{
+    justify-content: center;
+    align-items: center;
+}
+.center-footer>*{
+    padding: 5px 13px;
+}
+
+
+.center-footer .icon:nth-child(4)>i{
+    color: rgb(0, 255, 0);
+}
+/* right footer */
+footer .right-footer{
+    background-color: #4a4a4a;
+    height: 100%;
+}
+
+footer .right-footer span{
+    align-self:center ;
+    padding: 15px;
+    color: red;
+}
