@@ -1,37 +1,39 @@
 /* Reset */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* Common */
-body{
+body {
     background-color: black;
     height: 100vh;
     color: white;
 }
 
-button{
+button {
     color: white;
 }
+
 /* Typo */
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
+
 /* Header */
-header{
+header {
     height: 8vh;
 }
 
-header .header-btm{
+header .header-btm {
     padding: 10px 10px;
     display: flex;
     justify-content: flex-end;
     gap: 10px;
 }
 
-header .header-btm button{
+header .header-btm button {
     background-color: #4a4a4a;
     padding: 5px;
     border-radius: 5px;
@@ -39,10 +41,7 @@ header .header-btm button{
 }
 
 /* Main */
-
-
-
-main .container{
+main .container {
     padding: 0 30px 30px 30px;
     display: flex;
     justify-content: center;
@@ -53,16 +52,16 @@ main .container{
     height: 84vh;
 }
 
-main .container .box img{
+main .container .box img {
     width: 100%;
 }
 
-main .container .box{
+main .container .box {
     padding: 2px 0;
     position: relative;
 }
 
-main .container .users{
+main .container .users {
     position: absolute;
     font-size: 13px;
     bottom: 5px;
@@ -70,9 +69,9 @@ main .container .users{
     left: 0;
     background-color: rgba(85, 85, 85, 0.5);
 }
-/* Footer */
 
-footer{
+/* Footer */
+footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,64 +82,74 @@ footer{
     z-index: 20;
 }
 
-.footer .left-footer, .footer .right-footer{
+.footer .left-footer,
+.footer .right-footer {
     width: 30%;
 }
-.footer .center-footer{
+
+.footer .center-footer {
     width: 80%;
 }
+
 /* left footer */
-.col{
+.col {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
 
-footer .left-footer{
+footer .left-footer {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 15px;
-    gap:20px;
+    gap: 20px;
 }
 
-footer .left-footer, footer .center-footer, footer .right-footer{
+footer .left-footer,
+footer .center-footer,
+footer .right-footer {
     display: flex;
 }
-footer .action{
+
+footer .action {
     font-size: 15px;
     margin-top: 5px;
 }
+
 .icon>i {
     font-size: 25px;
     margin-top: 10px;
 }
-.up-arrow{
+
+.up-arrow {
     font-size: 9px;
     align-items: center;
 }
+
 /* center footer */
-.center-footer{
+.center-footer {
     justify-content: center;
     align-items: center;
 }
-.center-footer>*{
+
+.center-footer>* {
     padding: 5px 13px;
 }
 
-
-.center-footer .icon:nth-child(4)>i{
+.center-footer .icon:nth-child(4)>i {
     color: rgb(0, 255, 0);
 }
+
 /* right footer */
-footer .right-footer{
+footer .right-footer {
     background-color: #4a4a4a;
     height: 100%;
 }
 
-footer .right-footer span{
-    align-self:center ;
+footer .right-footer span {
+    align-self: center;
     padding: 15px;
     color: red;
 }
